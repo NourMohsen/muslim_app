@@ -47,6 +47,9 @@ dependencies:
   hive: ^2.2.3
   hive_flutter: ^1.1.0
   fluttertoast: ^8.2.2
+  flutter_onboarding_slider: ^1.0.11
+  smooth_page_indicator: ^1.1.0
+  intl_phone_field: ^3.2.0
 
 
 

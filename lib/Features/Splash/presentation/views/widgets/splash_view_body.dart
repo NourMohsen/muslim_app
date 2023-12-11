@@ -6,6 +6,7 @@ import 'package:muslim_task/Features/home/presentation/views/home_view.dart';
 
 import '../../../../../core/utils/app_router.dart';
 import '../../../../../core/utils/assets.dart';
+import '../../../../on_bording.dart';
 import 'sliding_text.dart';
 
 class SplashViewBody extends StatefulWidget {
@@ -67,7 +68,8 @@ class _SplashViewBodyState extends State<SplashViewBody>
     Future.delayed(
       const Duration(seconds: 2),
       () {
-        GoRouter.of(context).pushReplacement(AppRouter.kHomeView);
+        Navigator.of(context).push(MaterialPageRoute(builder: (context)=>OnBoardingScreen()));
+       // GoRouter.of(context).pushReplacement(AppRouter.kHomeView);
       },
     );
   }
